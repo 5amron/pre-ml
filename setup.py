@@ -22,7 +22,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='http://pre-ml.com/',
+    url='https://github.com/5amron/pre-ml',
 
     # Author details
     author='Saman Sadeghyan',
@@ -41,7 +41,7 @@ setup(
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
-        'Topic :: Software Development :: Data Science',
+        'Topic :: Scientific/Engineering :: Artificial Intelligence',
 
         # Pick your license as you wish (should match "license" above)
         'License :: OSI Approved :: MIT License',
