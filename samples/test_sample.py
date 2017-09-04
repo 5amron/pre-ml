@@ -45,7 +45,7 @@ def run_sample():
 
         solution = preml.baco(x, y, t_percent=40, heu_meth="method_1", ml_alg="knn1", iter_num=5)
 
-        preml.draw_baco(solution)
+        # preml.draw_baco(solution)
 
         return True
 
