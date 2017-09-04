@@ -40,18 +40,26 @@ def import_data(data_name):
 
 
 def run_sample():
+    try:
+        (x, y) = import_data("waveform")
 
-    (x, y) = import_data("waveform")
+        solution = preml.baco(x, y, t_percent=40, heu_meth="method_1", ml_alg="knn1", iter_num=10)
 
-    solution = preml.baco(x, y, t_percent=40, heu_meth="method_1", ml_alg="knn1", iter_num=10)
+        preml.draw_baco(solution)
 
-    preml.draw_baco(solution)
+        return True
+
+    except Exception as e:
+        raise e
+        return False
 
 
 
 
+def test_answer():
+    assert run_sample() == True
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     # execute only if run as a script
-    run_sample()
+    # run_sample()
