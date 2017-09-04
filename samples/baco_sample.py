@@ -1,6 +1,6 @@
-import pre_ml
+import preml
 import re
-
+import numpy as np
 
 
 def import_data(data_name):
@@ -43,9 +43,9 @@ def run_sample():
 
     (x, y) = import_data("waveform")
 
-    solution = pre_ml.baco(x, y, t_percent=40, heu_meth="method_1", ml_alg="knn1", iter_num=10)
+    solution = preml.baco(x, y, t_percent=40, heu_meth="method_1", ml_alg="knn1", iter_num=10)
 
-    pre_ml.draw_baco(solution)
+    preml.draw_baco(solution)
 
 
 
