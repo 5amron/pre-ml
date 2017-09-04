@@ -4,8 +4,8 @@ import numpy as np
 
 
 def import_data(data_name):
-
-    with open("datasets/"+data_name+"_data.csv","r", encoding="utf-8") as f_data_in: #waveform_data
+    ########### remove samples in your custom test!!!!!
+    with open("samples/datasets/"+data_name+"_data.csv","r", encoding="utf-8") as f_data_in: #waveform_data
             lines = f_data_in.readlines()
             # print(type(lines))
             dataset = list()
@@ -20,7 +20,7 @@ def import_data(data_name):
 #             print(dataset.shape)
 #             print(dataset)
 
-    with open("datasets/"+data_name+"_targets.csv","r", encoding="utf-8") as f_target_in:
+    with open("samples/datasets/"+data_name+"_targets.csv","r", encoding="utf-8") as f_target_in:
             lines = f_target_in.readlines()
             targets = list()
             for line in lines:
@@ -43,7 +43,7 @@ def run_sample():
     try:
         (x, y) = import_data("waveform")
 
-        solution = preml.baco(x, y, t_percent=40, heu_meth="method_1", ml_alg="knn1", iter_num=10)
+        solution = preml.baco(x, y, t_percent=40, heu_meth="method_1", ml_alg="knn1", iter_num=5)
 
         preml.draw_baco(solution)
 
