@@ -12,7 +12,7 @@
 # pre-ml ![](http://pre-ml.com/static/img/ant-samll.png "Logo Title Text 1")
 
 
-A tool for various optimization problems such as feature selection in machine learning. Feature selection (FS) is the process of selecting a subset of relevant features (variables, predictors) for use in the model construction and it is one of most important steps which can affect the performance of a pattern recognition system. The ultimate goal of feature selection is to select a feature subset from the original feature set to increase the performance of learning algorithms. pre-ml sees the feature set as a fully connected graph and uses binary ant colony optimization in order to optimize datasets for classification problems. At the end solution will be given you by several ways, for more info checkout the [docs](http://pre-ml.com/docs/).
+A tool for various optimization problems such as feature selection in machine learning. Feature selection (FS) is the process of selecting a subset of relevant features (variables, predictors) for use in the model construction and it is one of most important steps which can affect the performance of a pattern recognition system. The ultimate goal of feature selection is to select a feature subset from the original feature set to increase the performance and accuracy of classification algorithms. pre-ml sees the feature set as a fully connected graph and uses binary ant colony optimization in order to optimize datasets for classification problems. At the end solution will be given you by several ways, for more info checkout the [docs](http://pre-ml.com/docs/).
 
 
 package website :
