@@ -20,7 +20,7 @@ The goal of this project is implementation and improvement of best well-known me
 
 package website :
 http://pre-ml.com/
-
+(it's down for now!)
 
 
 
@@ -45,9 +45,3 @@ http://pre-ml.com/run/
 
 
 
-
-
-
-
-Saman Sadeghyan
-s.sadeghy325@gmail.com
