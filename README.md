@@ -9,7 +9,7 @@
 
 
 
-# pre-ml ![](http://pre-ml.com/static/img/ant-samll.png "Logo Title Text 1")
+# pre-ml ![](http://sam-kit.com/preml/static/img/ant-samll.png "Logo Title Text 1")
 
 
 
@@ -19,7 +19,7 @@ The goal of this project is implementation and improvement of best well-known me
 
 
 package website :
-http://pre-ml.com/
+http://sam-kit.com/preml/
 (it's down for now!)
 
 
@@ -38,8 +38,7 @@ pip install pre-ml
 web app giving the capability of preprocessing on datasets to non-programmer users based on simple and easy to use graphical user interface settings. This section begins with setting the preferences and uploading the user datasets which consists of two files, first data file and second targets file. The structure of these files have been discussed in website. users after uploading and choosing their settings which each one of them has been explained in some proper way can hit the run button in order to begin the optimization of their dataset.
 When processing is finished, results are displayed to users in several charts and paragraphs containing all of information about their dataset and the optimization process that has been done on it. Basically two charts will be shown, first one displaying best accuracy of dataset in each iteration, so they can find out about progress that has been made and second the number of features that are selected in each iteration.
 
-
-http://pre-ml.com/run/
+http://sam-kit.com/preml/run/
 
 
 
